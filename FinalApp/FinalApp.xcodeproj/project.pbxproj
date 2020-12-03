@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C43CA83A2578B10700AC4CFF /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43CA8392578B10700AC4CFF /* SpotifyiOS.framework */; };
+		C43CA8512578B70F00AC4CFF /* SpotifyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43CA8502578B70F00AC4CFF /* SpotifyInfo.swift */; };
+		C43CA8562578B7C000AC4CFF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43CA8552578B7C000AC4CFF /* SignInViewController.swift */; };
 		C4F6DF2F2568413000DCC5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6DF2E2568413000DCC5D4 /* AppDelegate.swift */; };
 		C4F6DF312568413000DCC5D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6DF302568413000DCC5D4 /* SceneDelegate.swift */; };
 		C4F6DF332568413000DCC5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F6DF322568413000DCC5D4 /* ViewController.swift */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C43CA8392578B10700AC4CFF /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		C43CA83E2578B39300AC4CFF /* FinalApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C43CA8502578B70F00AC4CFF /* SpotifyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyInfo.swift; sourceTree = "<group>"; };
+		C43CA8552578B7C000AC4CFF /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		C4F6DF2B2568413000DCC5D4 /* FinalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F6DF2E2568413000DCC5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4F6DF302568413000DCC5D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43CA83A2578B10700AC4CFF /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +87,12 @@
 		C4F6DF222568413000DCC5D4 = {
 			isa = PBXGroup;
 			children = (
+				C43CA83E2578B39300AC4CFF /* FinalApp-Bridging-Header.h */,
 				C4F6DF2D2568413000DCC5D4 /* FinalApp */,
 				C4F6DF442568413100DCC5D4 /* FinalAppTests */,
 				C4F6DF4F2568413100DCC5D4 /* FinalAppUITests */,
 				C4F6DF2C2568413000DCC5D4 /* Products */,
+				C43CA8392578B10700AC4CFF /* SpotifyiOS.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +112,9 @@
 				C4F6DF2E2568413000DCC5D4 /* AppDelegate.swift */,
 				C4F6DF302568413000DCC5D4 /* SceneDelegate.swift */,
 				C4F6DF322568413000DCC5D4 /* ViewController.swift */,
+				C43CA8552578B7C000AC4CFF /* SignInViewController.swift */,
 				C4F6DF342568413000DCC5D4 /* Main.storyboard */,
+				C43CA8502578B70F00AC4CFF /* SpotifyInfo.swift */,
 				C4F6DF372568413100DCC5D4 /* Assets.xcassets */,
 				C4F6DF392568413100DCC5D4 /* LaunchScreen.storyboard */,
 				C4F6DF3C2568413100DCC5D4 /* Info.plist */,
@@ -260,6 +272,8 @@
 			files = (
 				C4F6DF332568413000DCC5D4 /* ViewController.swift in Sources */,
 				C4F6DF2F2568413000DCC5D4 /* AppDelegate.swift in Sources */,
+				C43CA8512578B70F00AC4CFF /* SpotifyInfo.swift in Sources */,
+				C43CA8562578B7C000AC4CFF /* SignInViewController.swift in Sources */,
 				C4F6DF312568413000DCC5D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,13 +452,19 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LL5GCSLSA6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FinalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = JimmyRen.FinalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FinalApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,13 +477,19 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LL5GCSLSA6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FinalApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = JimmyRen.FinalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FinalApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
