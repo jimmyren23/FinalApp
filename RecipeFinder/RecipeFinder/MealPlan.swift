@@ -25,6 +25,13 @@ struct MealPlan {
     mutating func addMeal(day: Int, m: Meal) {
         week[day].Meals.append(m)
     }
+    func getCalsForEachDay() -> [Double] {
+        var totalWeekCal: [Double] = []
+        for dayplan in week {
+            totalWeekCal.append(dayplan.CaloriesOfDay())
+        }
+        return totalWeekCal
+    }
 }
 
 struct DayPlan {
@@ -36,6 +43,13 @@ struct DayPlan {
     }
     mutating func resetDay() {
         Meals = Array<Meal>()
+    }
+    func CaloriesOfDay() -> Double {
+        var totalCal: Double = 0
+        for meal in Meals {
+            totalCal += meal.calories
+        }
+        return totalCal
     }
 }
 
@@ -54,6 +68,7 @@ struct Meal {
     var image: String
     var source: String
     var url: String
+    var calories: Double
     var mealtime: MealTime
 }
 

@@ -72,7 +72,7 @@ class RecipeInfoViewController: UIViewController, UIPickerViewDelegate, UIPicker
         }
     }
     @IBAction func AddToMealPlan(_ sender: Any) {
-        let meal: Meal = Meal(label: name!, image: pic!, source: source!, url: url!, mealtime: MealTime.init(rawValue: currentMealTime) ?? MealTime.Breakfast)
+        let meal: Meal = Meal(label: name!, image: pic!, source: source!, url: url!, calories: calories!, mealtime: MealTime.init(rawValue: currentMealTime) ?? MealTime.Breakfast)
         print(meal)
         MyMealPlan.addMeal(day: currentDay, m: meal)
         print(MyMealPlan)

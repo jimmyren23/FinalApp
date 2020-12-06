@@ -28,10 +28,7 @@ class ViewController: UIViewController {
                 print("Sending " + Search.text! + "...\n")
             }
         } else if segue.identifier! == "ShowMealPlan" {
-            print("hello")
-            if let screen = segue.destination as? MealPlanTableViewController {
-                print("Heading over!")
-            }
+            print("Heading over!")
         }
 
     }

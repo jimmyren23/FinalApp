@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		517416274E38285A036E496D /* Pods_RecipeFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E23C66AC1436B20F6FC4A72 /* Pods_RecipeFinder.framework */; };
+		9E8CACE7BC1095FB3E06CFE3 /* Pods_RecipeFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB8616492DD7083E3223D2E /* Pods_RecipeFinderTests.framework */; };
 		C42CC9BD257A26370044A044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CC9BC257A26370044A044 /* AppDelegate.swift */; };
 		C42CC9BF257A26370044A044 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CC9BE257A26370044A044 /* SceneDelegate.swift */; };
 		C42CC9C1257A26370044A044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CC9C0257A26370044A044 /* ViewController.swift */; };
@@ -18,9 +20,12 @@
 		C42CC9F0257A39A80044A044 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CC9EF257A39A80044A044 /* RecipesViewController.swift */; };
 		C42CC9FD257A3A630044A044 /* RecipeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CC9FC257A3A630044A044 /* RecipeInfoViewController.swift */; };
 		C42CCA02257A9B330044A044 /* recipeStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CCA01257A9B330044A044 /* recipeStructure.swift */; };
-		C43F96BB257AB0E80085DD2E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C43F96BA257AB0E80085DD2E /* Kingfisher */; };
+		C43F96BB257AB0E80085DD2E /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = C43F96BA257AB0E80085DD2E /* SwiftPackageProductDependency */; };
 		C43F96C0257AC76E0085DD2E /* MealPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F96BF257AC76E0085DD2E /* MealPlan.swift */; };
 		C43F96C5257B7DBB0085DD2E /* MealPlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F96C4257B7DBB0085DD2E /* MealPlanTableViewController.swift */; };
+		C43F96CB257C04A60085DD2E /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = C43F96CA257C04A60085DD2E /* SwiftPackageProductDependency */; };
+		C43F96D0257C05090085DD2E /* CalorieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F96CF257C05090085DD2E /* CalorieChartViewController.swift */; };
+		D76D08C71AE38AB7AE528D9F /* Pods_RecipeFinder_RecipeFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9CE3FC4A2FB37E2ECA4B8F /* Pods_RecipeFinder_RecipeFinderUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		269947368A3AE6EA4EB29C16 /* Pods-RecipeFinder-RecipeFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeFinder-RecipeFinderUITests.release.xcconfig"; path = "Target Support Files/Pods-RecipeFinder-RecipeFinderUITests/Pods-RecipeFinder-RecipeFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		363D321C4D97E6FC9182177F /* Pods-RecipeFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeFinder.debug.xcconfig"; path = "Target Support Files/Pods-RecipeFinder/Pods-RecipeFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		8669B11997264AC57E1EE0B3 /* Pods-RecipeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeFinder.release.xcconfig"; path = "Target Support Files/Pods-RecipeFinder/Pods-RecipeFinder.release.xcconfig"; sourceTree = "<group>"; };
+		8E23C66AC1436B20F6FC4A72 /* Pods_RecipeFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9CE3FC4A2FB37E2ECA4B8F /* Pods_RecipeFinder_RecipeFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeFinder_RecipeFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		963F22B7A011921C6AC67E5F /* Pods-RecipeFinder-RecipeFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeFinder-RecipeFinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-RecipeFinder-RecipeFinderUITests/Pods-RecipeFinder-RecipeFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADB8616492DD7083E3223D2E /* Pods_RecipeFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B793F0EF670F2BB4314BE8C0 /* Pods-RecipeFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeFinderTests.debug.xcconfig"; path = "Target Support Files/Pods-RecipeFinderTests/Pods-RecipeFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCDCC93267230E0398D3A6AE /* Pods-RecipeFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeFinderTests.release.xcconfig"; path = "Target Support Files/Pods-RecipeFinderTests/Pods-RecipeFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		C42CC9B9257A26370044A044 /* RecipeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42CC9BC257A26370044A044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C42CC9BE257A26370044A044 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +74,7 @@
 		C42CCA01257A9B330044A044 /* recipeStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipeStructure.swift; sourceTree = "<group>"; };
 		C43F96BF257AC76E0085DD2E /* MealPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlan.swift; sourceTree = "<group>"; };
 		C43F96C4257B7DBB0085DD2E /* MealPlanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlanTableViewController.swift; sourceTree = "<group>"; };
+		C43F96CF257C05090085DD2E /* CalorieChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieChartViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C43F96BB257AB0E80085DD2E /* Kingfisher in Frameworks */,
+				C43F96BB257AB0E80085DD2E /* BuildFile in Frameworks */,
+				C43F96CB257C04A60085DD2E /* BuildFile in Frameworks */,
+				517416274E38285A036E496D /* Pods_RecipeFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E8CACE7BC1095FB3E06CFE3 /* Pods_RecipeFinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +100,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76D08C71AE38AB7AE528D9F /* Pods_RecipeFinder_RecipeFinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D33A18D8E149707C04A422C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E23C66AC1436B20F6FC4A72 /* Pods_RecipeFinder.framework */,
+				8F9CE3FC4A2FB37E2ECA4B8F /* Pods_RecipeFinder_RecipeFinderUITests.framework */,
+				ADB8616492DD7083E3223D2E /* Pods_RecipeFinderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C42CC9B0257A26370044A044 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +124,8 @@
 				C42CC9D2257A26390044A044 /* RecipeFinderTests */,
 				C42CC9DD257A26390044A044 /* RecipeFinderUITests */,
 				C42CC9BA257A26370044A044 /* Products */,
+				FA549C067D8187E780E3E5F5 /* Pods */,
+				9D33A18D8E149707C04A422C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +151,7 @@
 				C42CC9FC257A3A630044A044 /* RecipeInfoViewController.swift */,
 				C42CC9EF257A39A80044A044 /* RecipesViewController.swift */,
 				C42CC9C2257A26370044A044 /* Main.storyboard */,
+				C43F96CF257C05090085DD2E /* CalorieChartViewController.swift */,
 				C42CC9C5257A26390044A044 /* Assets.xcassets */,
 				C42CC9C7257A26390044A044 /* LaunchScreen.storyboard */,
 				C42CC9CA257A26390044A044 /* Info.plist */,
@@ -145,6 +177,20 @@
 			path = RecipeFinderUITests;
 			sourceTree = "<group>";
 		};
+		FA549C067D8187E780E3E5F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				363D321C4D97E6FC9182177F /* Pods-RecipeFinder.debug.xcconfig */,
+				8669B11997264AC57E1EE0B3 /* Pods-RecipeFinder.release.xcconfig */,
+				963F22B7A011921C6AC67E5F /* Pods-RecipeFinder-RecipeFinderUITests.debug.xcconfig */,
+				269947368A3AE6EA4EB29C16 /* Pods-RecipeFinder-RecipeFinderUITests.release.xcconfig */,
+				B793F0EF670F2BB4314BE8C0 /* Pods-RecipeFinderTests.debug.xcconfig */,
+				BCDCC93267230E0398D3A6AE /* Pods-RecipeFinderTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C42CC9E3257A26390044A044 /* Build configuration list for PBXNativeTarget "RecipeFinder" */;
 			buildPhases = (
+				9158B2FE93E95588E0D8322C /* [CP] Check Pods Manifest.lock */,
 				C42CC9B5257A26370044A044 /* Sources */,
 				C42CC9B6257A26370044A044 /* Frameworks */,
 				C42CC9B7257A26370044A044 /* Resources */,
+				5F642473416764B3A426108D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,7 +210,8 @@
 			);
 			name = RecipeFinder;
 			packageProductDependencies = (
-				C43F96BA257AB0E80085DD2E /* Kingfisher */,
+				C43F96BA257AB0E80085DD2E /* SwiftPackageProductDependency */,
+				C43F96CA257C04A60085DD2E /* SwiftPackageProductDependency */,
 			);
 			productName = RecipeFinder;
 			productReference = C42CC9B9257A26370044A044 /* RecipeFinder.app */;
@@ -172,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C42CC9E6257A26390044A044 /* Build configuration list for PBXNativeTarget "RecipeFinderTests" */;
 			buildPhases = (
+				822EE6548473259BB03C5ECB /* [CP] Check Pods Manifest.lock */,
 				C42CC9CB257A26390044A044 /* Sources */,
 				C42CC9CC257A26390044A044 /* Frameworks */,
 				C42CC9CD257A26390044A044 /* Resources */,
@@ -190,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C42CC9E9257A26390044A044 /* Build configuration list for PBXNativeTarget "RecipeFinderUITests" */;
 			buildPhases = (
+				096425E8D60823A799986D8A /* [CP] Check Pods Manifest.lock */,
 				C42CC9D6257A26390044A044 /* Sources */,
 				C42CC9D7257A26390044A044 /* Frameworks */,
 				C42CC9D8257A26390044A044 /* Resources */,
+				D091E11B816A9562E0273BC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +288,8 @@
 			);
 			mainGroup = C42CC9B0257A26370044A044;
 			packageReferences = (
-				C43F96B9257AB0E80085DD2E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C43F96B9257AB0E80085DD2E /* RemoteSwiftPackageReference */,
+				C43F96C9257C04A60085DD2E /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = C42CC9BA257A26370044A044 /* Products */;
 			projectDirPath = "";
@@ -276,6 +329,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		096425E8D60823A799986D8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecipeFinder-RecipeFinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F642473416764B3A426108D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeFinder/Pods-RecipeFinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeFinder/Pods-RecipeFinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecipeFinder/Pods-RecipeFinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		822EE6548473259BB03C5ECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecipeFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9158B2FE93E95588E0D8322C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecipeFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D091E11B816A9562E0273BC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeFinder-RecipeFinderUITests/Pods-RecipeFinder-RecipeFinderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecipeFinder-RecipeFinderUITests/Pods-RecipeFinder-RecipeFinderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecipeFinder-RecipeFinderUITests/Pods-RecipeFinder-RecipeFinderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C42CC9B5257A26370044A044 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -286,6 +442,7 @@
 				C43F96C0257AC76E0085DD2E /* MealPlan.swift in Sources */,
 				C42CC9FD257A3A630044A044 /* RecipeInfoViewController.swift in Sources */,
 				C42CC9BD257A26370044A044 /* AppDelegate.swift in Sources */,
+				C43F96D0257C05090085DD2E /* CalorieChartViewController.swift in Sources */,
 				C42CC9BF257A26370044A044 /* SceneDelegate.swift in Sources */,
 				C42CCA02257A9B330044A044 /* recipeStructure.swift in Sources */,
 				C43F96C5257B7DBB0085DD2E /* MealPlanTableViewController.swift in Sources */,
@@ -461,6 +618,7 @@
 		};
 		C42CC9E4257A26390044A044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363D321C4D97E6FC9182177F /* Pods-RecipeFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,6 +638,7 @@
 		};
 		C42CC9E5257A26390044A044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8669B11997264AC57E1EE0B3 /* Pods-RecipeFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,6 +658,7 @@
 		};
 		C42CC9E7257A26390044A044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B793F0EF670F2BB4314BE8C0 /* Pods-RecipeFinderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +681,7 @@
 		};
 		C42CC9E8257A26390044A044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCDCC93267230E0398D3A6AE /* Pods-RecipeFinderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +704,7 @@
 		};
 		C42CC9EA257A26390044A044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963F22B7A011921C6AC67E5F /* Pods-RecipeFinder-RecipeFinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +725,7 @@
 		};
 		C42CC9EB257A26390044A044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269947368A3AE6EA4EB29C16 /* Pods-RecipeFinder-RecipeFinderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -623,7 +786,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C43F96B9257AB0E80085DD2E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		C43F96B9257AB0E80085DD2E /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
 			requirement = {
@@ -631,13 +794,26 @@
 				minimumVersion = 5.8.0;
 			};
 		};
+		C43F96C9257C04A60085DD2E /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C43F96BA257AB0E80085DD2E /* Kingfisher */ = {
+		C43F96BA257AB0E80085DD2E /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C43F96B9257AB0E80085DD2E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			package = C43F96B9257AB0E80085DD2E /* RemoteSwiftPackageReference */;
 			productName = Kingfisher;
+		};
+		C43F96CA257C04A60085DD2E /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C43F96C9257C04A60085DD2E /* RemoteSwiftPackageReference */;
+			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
